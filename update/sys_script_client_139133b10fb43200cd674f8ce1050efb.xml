@@ -13,7 +13,7 @@
         <script><![CDATA[function onLoad() {
 		
   if(g_form.isNewRecord()){
-        g_form.setValue('u_requested_for',g_user.userID);
+     
 	    g_form.clearOptions('u_what_needed');
 		g_form.addOption('u_what_needed','legal1','Legal 1');
 		g_form.addOption('u_what_needed','legal2','Legal 2');
@@ -42,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>139133b10fb43200cd674f8ce1050efb</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>NeedIt onLoad Example</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -50,7 +50,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_139133b10fb43200cd674f8ce1050efb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-17 07:24:59</sys_updated_on>
+        <sys_updated_on>2018-05-17 11:33:09</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
