@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="NeedIt staging" max_length="40" name="x_58872_needit_needit_staging" type="collection">
+        <element attributes="import_attribute_name=Application Name,edge_encryption_enabled=true" label="Application Name" max_length="40" name="u_application_name" type="string"/>
+        <element attributes="import_attribute_name=S.No" label="S.No" max_length="40" name="u_s_no" type="integer"/>
+        <element attributes="import_attribute_name=Topics,edge_encryption_enabled=true" label="Topics" max_length="60" name="u_topics" type="string"/>
+    </element>
+</database>
